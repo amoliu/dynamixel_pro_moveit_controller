@@ -258,8 +258,9 @@ void DynamixelProMoveItController::manageTrajectoryExecution()
                         boost::mutex::scoped_lock lck(state_mutex);
                         for (int i = 0; i < completions.size(); i++)
                         {
-                            //the below option should work better
-                            //if (!completions[i] && waypoint_reached_p(i,
+                            //the below option should work better, but is
+                            //untested, as I don't have a working arm right now
+                            //if (!completions[i] && waypoint_reached_v(i,
                             //    step[joints[i]]))
                             if (!completions[i] && waypoint_reached_p(i,
                                 step[joints[i]]))
