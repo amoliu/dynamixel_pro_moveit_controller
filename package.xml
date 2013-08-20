@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>dynamixel_pro_moveit_controller</name>
-  <version>0.8.0</version>
+  <version>0.8.1</version>
   <description>The dynamixel_pro_moveit_controller package, it interprets joint trajectories and uses the low level drivers to directly control the arm. Avoiding the extra layer of translating the joint_trajectory messages to joint_state messages</description>
   <maintainer email="baxelrod@willowgarage.com">Brian Axelrod</maintainer>
 
